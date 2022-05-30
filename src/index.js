@@ -50,8 +50,8 @@ class GameBoard {
 
     for (let i = 0; i < 100; i++) {
       const board = document.createElement('div');
-      board.style.width = '50px';
-      board.style.height = '50px';
+      board.style.width = '40px';
+      board.style.height = '40px';
       board.style.border = '1px solid black';
       board.setAttribute('data-key', i);
       board.innerText = i;
